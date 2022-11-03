@@ -1,0 +1,2 @@
+text='Hello world, my name is Sasha.'
+print(text.title())
