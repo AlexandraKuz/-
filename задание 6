@@ -1,0 +1,11 @@
+n = int(input())
+
+mult = 1
+
+while n > 0:
+    digit = n % 10
+    if digit != 0:
+        mult *= digit
+    n = n // 10
+
+print(mult)
