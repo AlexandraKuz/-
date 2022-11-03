@@ -1,0 +1,3 @@
+def amount(money):
+    return '{:,.2f}'.format(money).replace('-', '-')
+print (amount(2345679) )
